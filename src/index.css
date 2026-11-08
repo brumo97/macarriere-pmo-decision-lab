@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #111D32;
+    --color-navy-light: #1A2B4A;
+    --color-offwhite: #F8F9FB;
+    --color-gold: #EABF48;
+    --color-slate: #64748B;
+    --color-success: #168467;
+    --color-warning: #D98A25;
+    --color-danger: #C94B4B;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #F8F9FB;
+    color: #111D32;
+  }
+}
+
+/* Palette et utilitaires du tableau de bord PMO */
+.bg-navy-900 {
+  background-color: #111D32;
+}
+
+.bg-navy-800 {
+  background-color: #182844;
+}
+
+.bg-navy-700 {
+  background-color: #21365A;
+}
+
+.text-navy-900 {
+  color: #111D32;
+}
+
+.text-gold-500 {
+  color: #EABF48;
+}
+
+.bg-gold-500 {
+  background-color: #EABF48;
+}
+
+.border-gold-500 {
+  border-color: #EABF48;
+}
+
+.text-slate-custom {
+  color: #64748B;
+}
+
+.bg-success-custom {
+  background-color: #168467;
+}
+
+.text-success-custom {
+  color: #168467;
+}
+
+.bg-warning-custom {
+  background-color: #D98A25;
+}
+
+.text-warning-custom {
+  color: #D98A25;
+}
+
+.bg-danger-custom {
+  background-color: #C94B4B;
+}
+
+.text-danger-custom {
+  color: #C94B4B;
+}
+
+.tabular-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Impression sans commandes interactives */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

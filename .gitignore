@@ -1,0 +1,20 @@
+# Dépendances et fichiers compilés
+node_modules/
+dist/
+build/
+coverage/
+
+# Configuration locale
+.env
+.env.*
+!.env.example
+
+# Données de travail non publiables
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Artefacts d’édition sans intérêt pour le dépôt
+.aistudio/
